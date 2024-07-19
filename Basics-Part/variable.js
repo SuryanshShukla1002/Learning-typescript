@@ -8,3 +8,11 @@ var userId = 3456;
 // boolean
 var isloggedIn = false;
 isloggedIn.valueOf();
+// any
+var x = "suty";
+x = 2232; /* with any type safety restriction removes */
+var hero;
+function gethero() {
+    return true;
+}
+hero = gethero;
