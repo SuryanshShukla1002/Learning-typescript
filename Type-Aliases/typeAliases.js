@@ -8,4 +8,3 @@ var myUser = {
     age: 19,
     isPaid: false
 };
-// myUser._id = "cde" will not allow as it is readonly property

@@ -26,4 +26,13 @@ let myUser: users = {
 }
 // myUser._id = "cde" will not allow as it is readonly property
 
+type cardate = {
+  date: string
+}
+type cardNumber = {
+  cvv : number
+}
+type cardDetails = cardate & cardate & {
+  cvv: number
+}
 
