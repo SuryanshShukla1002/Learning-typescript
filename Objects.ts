@@ -1,5 +1,5 @@
-function createUser({name:string, isPaid: boolean}){}
+function createUser({ name: string, isPaid: boolean }) {}
 
-createUser({name: "Suryansh" , isPaid: true})
+createUser({ name: "Suryansh", isPaid: true });
 
-export {}
+export {};

@@ -5,23 +5,19 @@ const addTwo = (num: number) => {
 addTwo(6);
 // addTwo('6') will not allow as parameter has been assigned with number
 
-const loginUser = (name: string, email: string, isPiad: boolean = false) => {}
-loginUser("Surya" , "S@gmai.com")
+const loginUser = (name: string, email: string, isPiad: boolean = false) => {};
+loginUser("Surya", "S@gmai.com");
 
-// Arrow function string 
+// Arrow function string
 const gethello = (s: string): string => {
-  return ""
-}
+  return "";
+};
 
-const heros = ["thor" , "Superman"]
+const heros = ["thor", "Superman"];
 heros.map((hero) => {
-  return `hero is ${hero}`
-})
+  return `hero is ${hero}`;
+});
 
 // never (intential crash making for the server)
 
-
-
-
-
-export {}
+export {};
