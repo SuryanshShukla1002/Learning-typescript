@@ -9,3 +9,7 @@ var getID = function (id) {
         id.toLowerCase();
     }
 };
+//  array unions
+// const data: number[] = [1,2,3,4,"0"]  only accept numbers same be for string
+// combine union array
+var data = [1, "40", true];
