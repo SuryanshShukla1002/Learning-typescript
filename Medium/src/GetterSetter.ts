@@ -6,7 +6,7 @@ class Users {
     public email: string,
     public name: string // private userId: string
   ) {}
-  
+
   get getAppleEmail(): string {
     return `apple${this.email}`;
   }
